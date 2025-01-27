@@ -1,0 +1,1 @@
+The following CSS code snippet exhibits a common yet easily overlooked error:  `div { width: 50%; } div { width: 100%; }` This will result in only the latter declaration (`width: 100%;`) taking effect due to CSS cascading. The last declaration of a particular style property wins.
