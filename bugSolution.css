@@ -1,0 +1,7 @@
+/* Solution: Using more specific selectors or avoiding redundant declarations. 
+   Only one width should be assigned to a particular selector. 
+*/
+
+#div1 { width: 50%; }
+
+div#div2 { width: 100%; }
